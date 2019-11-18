@@ -1,13 +1,1 @@
-{
-  "name": "Automated Redirector",
-  "description": "Redirect to Google News",
-  "version": "1.0",
 
-  "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["popup.js"],
-    "matches": ["https://www.google.co.in/", "https://www.google.com/"]
-  }],
-
-  "manifest_version": 2
-}
